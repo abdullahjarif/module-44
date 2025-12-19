@@ -1,12 +1,18 @@
 import "./App.css";
+import DaisyNav from "./Component/DaisyNav/DaisyNav";
 import Navbar from "./Component/Navbar/Navbar";
-import Others from "./Component/Others/Others";
+
 
 function App() {
   return (
     <>
-    <Navbar></Navbar>
-    <Others></Others>
+      <header>
+        <Navbar></Navbar>
+        <DaisyNav></DaisyNav>
+      </header>
+      <main>
+        
+      </main>
     </>
   );
 }
